@@ -1,0 +1,255 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(135deg, #1e1e40, #23236c);
+  color: #ffffff;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Header Section */
+.header {
+  background: #161635;
+  padding: 1em 0;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.header .logo {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.nav a {
+  color: #ccc;
+  margin: 0 1em;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.nav a:hover {
+  color: #fff;
+}
+
+.download-btn {
+  background-color: #6a3db8;
+  color: #fff;
+  padding: 0.5em 1.5em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.download-btn:hover {
+  background-color: #7e4fd4;
+}
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 4em 1em;
+  background: linear-gradient(135deg, #1e1e40, #23236c, #30308a);
+  border-top: 1px solid #444;
+}
+
+.hero h1 {
+  font-size: 3em;
+  margin-bottom: 0.5em;
+}
+
+.hero p {
+  font-size: 1.2em;
+  margin-bottom: 2em;
+  color: #bbb;
+}
+
+.cta-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1.5em;
+}
+
+.btn {
+  text-decoration: none;
+  color: #fff;
+  padding: 0.8em 2em;
+  border-radius: 25px;
+  font-weight: bold;
+  font-size: 1em;
+  transition: transform 0.2s, background 0.3s;
+}
+
+.btn.mobile {
+  background: #7e4fd4;
+}
+
+.btn.mobile:hover {
+  background: #9a67e5;
+  transform: translateY(-5px);
+}
+
+.btn.extension {
+  background: #3b8ed5;
+}
+
+.btn.extension:hover {
+  background: #4fa3e7;
+  transform: translateY(-5px);
+}
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  color: #ffffff;
+  background: linear-gradient(135deg, #1f1f47, #24266b);
+  line-height: 1.6;
+}
+
+/* Container */
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em 0;
+  background: #1c1c40;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.header .logo {
+  font-size: 1.8em;
+  font-weight: 600;
+}
+
+.nav a {
+  margin: 0 1em;
+  color: #bbb;
+  text-decoration: none;
+  font-weight: 400;
+  transition: color 0.3s;
+}
+
+.nav a:hover {
+  color: #ffffff;
+}
+
+.header-btn {
+  padding: 0.6em 1.5em;
+  background: #6a3db8;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.header-btn:hover {
+  background: #7e4fd4;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 5em 1em;
+  background: linear-gradient(135deg, #23236c, #1e1e3c);
+}
+
+.hero h1 {
+  font-size: 3em;
+  margin-bottom: 0.5em;
+  color: #fff;
+}
+
+.hero p {
+  font-size: 1.2em;
+  color: #ccc;
+  margin-bottom: 2em;
+}
+
+.cta-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+}
+
+.btn {
+  text-decoration: none;
+  color: #fff;
+  padding: 0.8em 2em;
+  font-weight: 600;
+  border-radius: 30px;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.btn.mobile {
+  background: #6a3db8;
+}
+
+.btn.extension {
+  background: #3b8ed5;
+}
+
+.btn:hover {
+  transform: translateY(-5px);
+}
+
+/* Content Sections */
+.content, .security, .download {
+  padding: 3em 1em;
+  background: #2a2a5c;
+}
+
+.content h2, .security h2, .download h2 {
+  font-size: 2em;
+  margin-bottom: 1em;
+  text-align: center;
+  color: #ffffff;
+}
+
+.content p, .security p, .download p {
+  font-size: 1.1em;
+  margin-bottom: 1.5em;
+  color: #d0d0ff;
+  text-align: justify;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 1em 0;
+  background: #1a1a3f;
+  color: #ccc;
+  font-size: 0.9em;
+}
